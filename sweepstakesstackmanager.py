@@ -8,4 +8,4 @@ class SweepstakesStackManager:
         self.stack.push(sweepstakes)
 
     def get_sweepstakes(self):
-        self.stack.pop()
+        return self.stack.pop()
