@@ -7,6 +7,14 @@ class Sweepstake:
         self.contestants = {}
         self.name = name
 
+    def create_contestant(self):
+        print('Enter Contestant Info')
+        first_name = input('First Name: ')
+        last_name = input('Last Name: ')
+        email_address = input('Email Address: ')
+        registration_number = input('Registration Number: ')
+        return Contestant(first_name, last_name, email_address, registration_number)
+
     def register_contestant(self, contestant):
         self.contestants[len(self.contestants)] = contestant
 

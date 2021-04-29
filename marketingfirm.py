@@ -1,4 +1,5 @@
 from sweepstake import Sweepstake
+from contestant import Contestant
 
 class MarketingFirm:
     def __init__(self, manager):
